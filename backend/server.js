@@ -15,10 +15,6 @@ mongoose
     useUnifiedTopology: true,
     useCreateIndex: true,
   })
-  .then(() => {
-    console.log('Done');
-  })
-  // eslint-disable-next-line no-console
   .catch((error) => console.log(error.reason));
 
 const app = express();

@@ -4,7 +4,7 @@ dotenv.config();
 
 export default {
   PORT: process.env.PORT || 5000,
-  MONGODB_URL:
+ MONGODB_URL:
     process.env.MONGODB_URL
     || 'mongodb+srv://shyambhalodiya61:IfoBv1s9tObX53RD@cluster0.m9d2cdp.mongodb.net/safar?retryWrites=true&w=majority',
   JWT_SECRET: process.env.JWT_SECRET || 'somethingsecret',
