@@ -31,7 +31,7 @@ function App() {
         <header className="header">
           <div className="brand">
             <button onClick={openMenu}>&#9776;</button>
-            <Link to="/">amazona</Link>
+            <Link to="/">Safar</Link>
           </div>
           <div className="header-links">
             <a href="cart.html">Cart</a>
@@ -58,7 +58,7 @@ function App() {
           <button className="sidebar-close-button" onClick={closeMenu}>
             x
           </button>
-          <ul className="categories">
+          {/* <ul className="categories">
             <li>
               <Link to="/category/Pants">Pants</Link>
             </li>
@@ -66,7 +66,7 @@ function App() {
             <li>
               <Link to="/category/Shirts">Shirts</Link>
             </li>
-          </ul>
+          </ul> */}
         </aside>
         <main className="main">
           <div className="content">
